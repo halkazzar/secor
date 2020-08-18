@@ -10,7 +10,7 @@ This document assumes familiarity with [Apache Kafka].
 
 * **minimized chance of data loss and corruption:** this is by far the highest priority objective. Logs are the basis of billing and as such they cannot lie,
 
-* **protection against bad code****:** data corruption caused by bugs in the message parsers should be reversible,
+* **protection against bad code:** data corruption caused by bugs in the message parsers should be reversible,
 
 * **low log-to-ready_for_consumption delay:** logged messages should be ready for consumption by analytical tools asap. We don’t exclude a near-real-time use case in the near future,
 
